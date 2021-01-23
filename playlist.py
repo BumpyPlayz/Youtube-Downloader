@@ -165,6 +165,7 @@ if Continue:
                 newtab.add_row([num, x[0], x[1], x[2], x[3]])
                 num +=1
 
+            newtab.add_row(['', '', '', '', ''])
             newtab.add_row(['Total', '', '', '', ''])
             newtab.add_row([len(totaldownloaded), '', '', '', round(totalsize / 1024 / 1024, 2)])
             print(newtab)
@@ -175,6 +176,7 @@ if Continue:
                 newtab.add_row([num, x[0], x[1], x[2]])
                 num += 1
 
+            newtab.add_row(['', '', '', ''])
             newtab.add_row(['Total', '', '', ''])
             newtab.add_row([len(totaldownloaded), '', '', round(totalsize / 1024 / 1024, 2)])
             print(newtab)
