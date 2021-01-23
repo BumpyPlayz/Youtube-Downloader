@@ -181,4 +181,4 @@ if Continue:
             newtab.add_row([len(totaldownloaded), '', '', round(totalsize / 1024 / 1024, 2)])
             print(newtab)
     except:
-        print("Unknown Error Occured. Please check the playlist id")
+        print("Unknown Error Happened. Please check the playlist id")
